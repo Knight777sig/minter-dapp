@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
+const namePrefix = "Crypto Noir";
 const description = "Remember to replace this description";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -16,13 +16,20 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "01 Background" },
+      { name: "02 Noir" },
+      { name: "03 Facial Feature" },
+      { name: "04 Eyes" },
+      { name: "05 Eyeball" },
+      { name: "06 Hair" },
+      { name: "07 Facial Hair 1" },
+      { name: "08 Accesorries" },
+      { name: "09 Facial Hair 2" },
+      { name: "10 Hat" },
+      { name: "11 Coar" },
+      { name: "12 Banner" },
+      { name: "13 Frame" },
+      { name: "14 Coins" },
     ],
   },
 ];
@@ -32,8 +39,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 722,
+  height: 1047,
   smoothing: false,
 };
 
